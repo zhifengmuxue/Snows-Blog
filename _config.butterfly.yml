@@ -277,8 +277,8 @@ busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
-  init_pv: 10000
-  init_uv: 10000
+  init_pv: 0
+  init_uv: 0
 
 
 # Time difference between publish date and now (網頁運行時間)
