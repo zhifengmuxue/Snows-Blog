@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zhifengmuxue.top
+url: https://zhifengmuxue.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,6 +41,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+prependRoot: true
+postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -103,9 +106,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@zhifengmuxue.top:GitRepo/Blog
+  repo: git@124.220.68.230:GitRepo/Blog
   branch: master
 
 lazyload:
-  enable: true
+  enable: false
   loadingImg: img/loading.gif
