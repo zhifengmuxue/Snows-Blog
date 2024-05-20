@@ -37,7 +37,7 @@ social:
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
-Image: /img/2.png
+Image: /img/2.jpg
 
 # Favicon（網站圖標）
 favicon: /img/1.jpg
@@ -52,10 +52,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/2.png
+index_img: /img/2.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/2.png
+default_top_img: /img/2.jpg
 
 # The banner image of archive page
 archive_img:
@@ -107,7 +107,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -122,8 +122,8 @@ post_meta:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  method: 2
+  length: 800 # if you set method to 2 or 3, the length need to config
 
 # anchor
 anchor:
@@ -140,7 +140,7 @@ photofigcaption: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # Post
@@ -350,12 +350,12 @@ rightside_item_order:
 # MathJax
 mathjax:
   enable: true      
-  per_page: false
+  per_page: true
 
 # KaTeX
 katex:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   hide_scrollbar: true
 
 # search (搜索)
@@ -685,13 +685,13 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -707,7 +707,7 @@ fireworks:
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
   enable: true
-  mobile: false
+  mobile: true
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 clickShowText:
@@ -978,6 +978,7 @@ CDN:
     # local_search:
     # main: 
     # jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
+    jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js
     # main_css:
     # mathjax:
     medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js

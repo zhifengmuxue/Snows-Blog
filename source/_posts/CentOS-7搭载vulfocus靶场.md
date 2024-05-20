@@ -2,7 +2,7 @@
 title: CentOS 7搭载vulfocus靶场
 date: 2023-02-07 22:47:33
 tags: [指南,vulfocus]
-categories: 指南
+categories: 网络安全
 ---
 
  在CentOS 7 虚拟机上搭载vulfocus靶场
