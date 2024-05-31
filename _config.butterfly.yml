@@ -16,7 +16,7 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -611,9 +611,9 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#49B1F5"
+  main: "#bec1fc"
   paginator: "#00c4b6"
-  button_hover: "#FF7242"
+  button_hover: "#FFCCE9"
   text_selection: "#00c4b6"
   link_color: "#99a9bf"
   meta_color: "#858585"
@@ -649,7 +649,7 @@ text_align_justify: false
 background: '#efefef'
 
 # Footer Background
-footer_bg: false
+footer_bg: 'linear-gradient(20deg, rgba(128, 174, 228, 0.6), rgba(201, 164, 193, 0.6), rgba(230, 146, 176, 0.6), rgba(255, 128, 160, 0.6))'
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
