@@ -24,13 +24,13 @@
     "hexo-image-link": "^0.0.5",
     "hexo-lazyload-image": "^1.0.13",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-marked": "^6.2.0",
     "hexo-renderer-pug": "^3.0.0",
-    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
     "or": "^0.2.0",
-    "yarn": "^1.22.21"
+    "yarn": "^1.22.22"
   }
 }
