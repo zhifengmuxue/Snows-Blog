@@ -966,7 +966,7 @@ CDN:
     fancybox: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
     fancybox_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
     # fireworks:
-    fontawesome: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    fontawesome: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css
     gitalk: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js
     gitalk_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css
     # giscus:
