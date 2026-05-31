@@ -5,8 +5,8 @@
 # Site
 title: zfmx's Blog
 subtitle: '学习笔记'
-description: ''
-keywords:
+description: '专注于 Spring Cloud、微服务架构与后端技术的学习与分享'
+keywords: 'Spring Cloud,微服务,Java,后端开发,技术博客'
 author: 栉风沐雪
 language: zh-CN
 timezone: ''
@@ -14,11 +14,17 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zhifengmuxue.top/
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# abbrlink config
+abbrlink:
+  alg: crc32      # 算法：crc16(default) and crc32
+  rep: hex        # 进制：dec(default) and hex
+  drafts: false   # 是否为草稿生成 abbrlink，默认为 false
 
 # Directory
 source_dir: source
@@ -115,3 +121,36 @@ lazyload:
 
 toc:
   maxDepth: 3
+
+# Feed (RSS) Config
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+# Sitemap Config
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# Local Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# MathJax
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (alnum) char width
+  append_css: true # add CSS to every page
+  every_page: false # if true, every page will be rendered by mathjax
